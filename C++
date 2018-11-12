@@ -1,0 +1,17 @@
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+int main() {
+    cout << "¿Cual es tu Edad?" << endl;
+    int iEdad;
+    
+    cin >> iEdad;
+    if (iEdad >= 18) {
+        cout << "Es Mayor de Edad" << endl;
+    } else {
+        cout << "No es Mayor de Edad" << endl;
+    }
+    return 0;
+}
