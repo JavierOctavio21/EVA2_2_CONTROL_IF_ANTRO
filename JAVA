@@ -1,0 +1,23 @@
+import java.util.*;
+/**
+ * @author Javier Octavio
+ */
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    Scanner input = new Scanner(System.in);
+        System.out.println("¿Cual es tu Edad?");
+        int iEdad;
+        
+        iEdad = input.nextInt();
+        if (iEdad >= 18) {
+            System.out.println("Es Mayor de Edad");
+        } else {
+            System.out.println("No es Mayor de Edad");
+        }
+    }
+}
