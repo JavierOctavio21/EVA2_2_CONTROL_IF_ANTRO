@@ -1,0 +1,6 @@
+print("¿Cual es tu Edad?")
+iEdad = int(input())
+if iEdad >= 18:
+    print("Es Mayor de Edad")
+else:
+    print("No es Mayor de Edad")
